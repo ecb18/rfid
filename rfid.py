@@ -7,5 +7,6 @@ try:
         id, text = reader.read()
         print(type(id))
         print(type(text))
+        print(text)
 finally:
         GPIO.cleanup()
